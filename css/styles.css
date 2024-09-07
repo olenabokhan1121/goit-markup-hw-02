@@ -68,14 +68,12 @@ a {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
 
 .order-service-btn:hover,
 .order-service-btn:focus {
   background-color: #404bbf;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 /* ================ OUR BENEFITS STYLE ================ */
@@ -100,6 +98,10 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
+}
+.team-section-item {
+  background: #fff;
 }
 
 .team-section-fullname {
@@ -116,11 +118,11 @@ a {
   text-align: center;
   color: #434455;
 }
-/* ================ OUR PORTFOLIO STYLE ================ */
+
 .team-section {
   background: #f4f4fd;
 }
-
+/* ================ OUR PORTFOLIO STYLE ================ */
 .portfolio-section-list-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
